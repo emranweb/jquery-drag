@@ -1,0 +1,36 @@
+.ui-widget-content {
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+  padding: 0px 0px;
+  top: 20px;
+  left: 20px;
+  position: fixed;
+  z-index: 3;
+  background: rgb(232 232 232);
+}
+
+.drag-icon {
+  background: #b3b3b3;
+  padding: 5px;
+}
+.drag-icon:hover {
+  cursor: pointer;
+}
+
+html body.dark {
+  background: black;
+  filter: invert(
+    1
+  ); /* This will flip the contents on the page, from black to its inverted color*/
+}
+
+html body.dark a {
+  color: yellow; /* This will render as a light pink or purple*/
+}
+.fa-window-close {
+  position: absolute;
+  right: 0px;
+  top: -1px;
+  font-size: 35px;
+}
